@@ -1,0 +1,26 @@
+ @font-face {
+     font-family: 'efeito-bold';
+     src: url('../fonts/NexaBold.otf') format('opentype');
+ }
+
+ @font-face {
+     font-family: 'efeito-black';
+     src: url('../fonts/nexa-black.otf') format('opentype');
+ }
+
+ @font-face {
+     font-family: 'efeito-normal';
+     src: url('../fonts/NexaBold.otf') format('opentype');
+ }
+
+ h1 {
+     font-family: 'efeito-bold', sans-serif;
+ }
+
+ p {
+     font-family: 'efeito-bold', sans-serif;
+ }
+
+ a {
+     font-family: 'efeito-normal', sans-serif;
+ }
