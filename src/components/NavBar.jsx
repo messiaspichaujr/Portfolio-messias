@@ -16,7 +16,7 @@ function Navbar() {
 
   return (
     <>
-      {/* Menu para desktop/tablet - não aparece no mobile */}
+      {/* Menu para desktop/tablet */}
       <div className="desktop-nav">
         <GooeyNav
           items={items}
@@ -30,7 +30,7 @@ function Navbar() {
         />
       </div>
 
-      {/* Menu para mobile - não aparece no desktop */}
+      {/* Menu para mobile */}
       <div className="mobile-menu-container">
         <div className="hamburger-menu">
           <a href="#">
